@@ -1,0 +1,70 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(42, 47, 79);
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+    color: rgb(253, 226, 243);
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-family: 'EB Garamond', serif;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    color: beige;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cell:hover {
+    background-color: rgb(201, 66, 151);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(145, 127, 179);
+    color: rgb(253, 226, 243);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a729fc;
+}
+
+
